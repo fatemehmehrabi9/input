@@ -1,0 +1,102 @@
+search box
+ul,li{
+    list-style: none;
+    margin: 10px;
+}
+.box1{
+    margin: 50px auto;
+    width: 100%;
+}
+.box1 input{
+    color: black;
+    width: 100%;
+    padding:5px 9px ;
+    font-size: 23px;
+    border-radius: 4px;
+    background-color: rgb(202, 199, 199);
+}
+.box1 ul{
+    height: 120px;
+    overflow-y: scroll;
+
+}
+.box1 li{
+    color: #fff;
+    font-size: 23px;
+    padding: 9px 10px;
+}
+.box1 li:hover{
+    color: aliceblue;
+    background-color:  rgb(243, 1, 1);
+   
+}
+
+
+
+
+/* chap */
+
+.form,
+.users {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+
+button,
+input {
+    font-family: "Roboto";
+    font-size: 20px;
+    padding: 10px;
+    margin: 15px 5px 0 5px;
+    outline: none;
+    width: 200px;
+}
+
+button {
+    background-color: #8b0606;
+    color: #fff;
+    border: 0;
+}
+
+input,
+input:focus {
+    border: 0.5px solid #363636;
+    background-color: transparent;
+    outline: none;
+    color: #fff;
+}
+
+    .users li {
+        margin: -5px;
+        border: 1px solid #8b0606;
+        width: 60%;
+        height: 40px;
+    }
+.users ul {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin-top: 20px;
+    
+
+}
+
+.item-box {
+    display: inline-flex;
+    margin: 10px 20px;
+    min-width: 240px;
+    padding: 10px 30px;
+
+}
+
+.remove {
+    position: relative;
+    left: -15px;
+    padding-right: 20px;
+    color: #ff0d00;
+}
